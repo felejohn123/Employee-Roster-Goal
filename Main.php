@@ -1,5 +1,12 @@
 <?php
 
+require_once 'Person.php';
+require_once 'Employee.php';
+require_once 'HourlyEmployee.php';
+require_once 'PieceWorker.php';
+require_once 'CommissionEmployee.php';  // Ensure this is included
+require_once 'EmployeeRoster.php';
+
 class Main {
     private EmployeeRoster $roster;
     private int $size;
